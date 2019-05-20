@@ -20,7 +20,7 @@ Individual project. The motivation for the app was to create my own media app li
 |<img   alt="Onboarding Screen" src="images/6.png">  SC 7 | <img   alt="Onboarding Screen" src="images/7.png">  SC 8|
 |<img   alt="Onboarding Screen" src="images/8.png">  SC 9 | <img   alt="Onboarding Screen" src="images/9.png">  SC 10|
 |<img   alt="Onboarding Screen" src="images/10.png">  SC 11 | <img   alt="Onboarding Screen" src="images/11.png">  SC 12|
-|<img   alt="Onboarding Screen" src="images/12.png">  SC 13 | |
+|<img  alt="Onboarding Screen" src="images/12.png">  SC 13 | |
 
 
 ## Working:
