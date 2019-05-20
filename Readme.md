@@ -14,13 +14,13 @@ Individual project. The motivation for the app was to create my own media app li
 
 | | |
 |:-------------------------:|:-------------------------:|
-|<img   alt="Onboarding Screen" src="images/1.png">  SC 1 | <img   alt="Onboarding Screen" src="images/1_1.png"> SC 2|
+|<img   alt="Onboarding Screen" src="images/1.PNG">  SC 1 | <img   alt="Onboarding Screen" src="images/1_1.png"> SC 2|
 |<img   alt="Onboarding Screen" src="images/2.png">  SC 3 | <img   alt="Onboarding Screen" src="images/3.png"> SC 4|
 |<img   alt="Onboarding Screen" src="images/4.png">  SC 5 | <img   alt="Onboarding Screen" src="images/5.png">  SC 6|
 |<img   alt="Onboarding Screen" src="images/6.png">  SC 7 | <img   alt="Onboarding Screen" src="images/7.png">  SC 8|
-|<img   alt="Onboarding Screen" src="images/8.png">  SC 9 | <img   alt="Onboarding Screen" src="images/9.png">  SC 10|
-|<img   alt="Onboarding Screen" src="images/10.png">  SC 11 | <img   alt="Onboarding Screen" src="images/11.png">  SC 12|
-|<img  alt="Onboarding Screen" src="images/12.png">  SC 13 | |
+|<img   alt="Onboarding Screen" src="images/8.PNG">  SC 9 | <img   alt="Onboarding Screen" src="images/9.PNG">  SC 10|
+|<img   alt="Onboarding Screen" src="images/10.PNG">  SC 11 | <img   alt="Onboarding Screen" src="images/11.PNG">  SC 12|
+|<img  alt="Onboarding Screen" src="images/12.PNG">  SC 13 | |
 
 
 ## Working:
