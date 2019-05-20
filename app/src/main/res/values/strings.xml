@@ -2,7 +2,7 @@
     <string name="app_name">AndImage</string>
 
 
-    <string name="my_pixabay_API">4608907-a773e1287a88b0498389c4523</string>
+    <string name="my_pixabay_API">Its_Not_To_Be_Shared</string>
     <string name="pixabay_base_URL">https://www.pixabay.com/api/?key=</string>
     <string name="pixabay_videos_base_URL">https://pixabay.com/api/videos/?key=</string>
 
