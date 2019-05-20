@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:title="@string/action_settings">
+
+    <!-- Prefernece Category for User Information-->
+    <PreferenceCategory
+        android:orderingFromXml="false"
+        android:title="User Information">
+
+
+        <EditTextPreference
+            android:defaultValue="@string/default_username"
+            android:title="Your Name:"
+            android:icon="@mipmap/ic_launcher"
+            android:key="@string/username_key"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            />
+
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Search Results sort:">
+
+        <ListPreference
+            android:title="Search Photo Type"
+            android:entries="@array/photo_type"
+            android:entryValues="@array/photo_type"
+            android:key="@string/photo_type_key"
+            android:summary="Default is: All" />
+        <ListPreference
+            android:title="Sort results by"
+            android:entries="@array/sort_results"
+            android:entryValues="@array/sort_results"
+            android:key="@string/sort_results_key"
+            android:summary="Default is: Popular" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Image Download Quality"
+        android:summary="Default is 720p">
+
+        <ListPreference
+            android:title="Select Download Image Quality "
+            android:entries="@array/image_quality_data"
+            android:entryValues="@array/image_quality_values"
+            android:key="@string/image_download_key"
+            android:summary="Default is HD" />
+    </PreferenceCategory>
+
+
+    <!-- Prefernece Category for Ringtones-->
+    <PreferenceCategory android:title="Video Download Quality">
+
+        <ListPreference
+            android:title="Select Download Video Quality "
+            android:entries="@array/video_quality_data"
+            android:entryValues="@array/video_quality_values"
+            android:key="@string/video_download_key"
+            android:summary="Default is HD" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:orderingFromXml="false"
+        android:title="Notification &amp; Alerts Preferences">
+
+        <RingtonePreference
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:key="@string/notification_tone_key"
+            android:showSilent="true"
+            android:summary="Select you preferred notification tone"
+            android:title="Notification Tone" />
+
+        <CheckBoxPreference
+            android:background="@color/colorAccent"
+            android:summary="Do you want to receive notification alerts?"
+            android:summaryOff="Currently the notifications are off"
+            android:summaryOn="Currently the notifications are enabled"
+            android:title="Notification alerts" />
+
+
+        <CheckBoxPreference
+            android:background="@color/colorAccent"
+            android:summary="Get Update Notification?"
+            android:summaryOff="No, not receiving"
+            android:summaryOn="Yes, receiving"
+            android:title="Application Updates" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

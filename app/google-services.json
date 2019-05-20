@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "625619727397",
+    "firebase_url": "https://imagebay-911fd.firebaseio.com",
+    "project_id": "imagebay-911fd",
+    "storage_bucket": "imagebay-911fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625619727397:android:53e8b3ee35d553e9",
+        "android_client_info": {
+          "package_name": "imageopen.rishabh.andimage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625619727397-8r8dor6eqq3nmpiejbiche8sm8lg9fj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "imageopen.rishabh.andimage",
+            "certificate_hash": "16a0a25d1ef446566d1d37303c8edf550b97e6fe"
+          }
+        },
+        {
+          "client_id": "625619727397-pve7p4v42ok811vbtds83nb45ei1dbra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "imageopen.rishabh.andimage",
+            "certificate_hash": "463cdcd10763e805369fdcd7bc2432f5d8ab7f39"
+          }
+        },
+        {
+          "client_id": "625619727397-io69n6odgnjmilsekh0njpcni0499jpr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqsg6DNw8X_kmNNercuJBrk6-afeHK0AM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625619727397-io69n6odgnjmilsekh0njpcni0499jpr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

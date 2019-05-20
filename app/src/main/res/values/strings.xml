@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">AndImage</string>
+
+
+    <string name="my_pixabay_API">4608907-a773e1287a88b0498389c4523</string>
+    <string name="pixabay_base_URL">https://www.pixabay.com/api/?key=</string>
+    <string name="pixabay_videos_base_URL">https://pixabay.com/api/videos/?key=</string>
+
+    <string name="notification_tone_key">notification_tone_key</string>
+    <string name="username_key">username_key</string>
+    <string name="default_username">Awesome</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="image_quality_data">
+        <item>SD</item>
+        <item>720p</item>
+        <item>1080p</item>
+    </string-array>
+
+    <string-array name="image_quality_values">
+        <item>SD</item>
+        <item>HD</item>
+        <item>FullHD</item>
+    </string-array>
+
+    <string name="image_download_key">image_quality</string>
+
+    <string-array name="video_quality_data">
+        <item>480p</item>
+        <item>720p</item>
+        <item>1080p</item>
+    </string-array>
+
+    <string-array name="video_quality_values">
+        <item>SD</item>
+        <item>HD</item>
+        <item>FullHD</item>
+    </string-array>
+
+    <string name="video_download_key">video_quality</string>
+    <string name="btn_retry">Retry</string>
+    <string name="error_msg">Sorry! Couldn\'t fetch pictures</string>
+
+    <string-array name="category_titles">
+        <item>Fashion</item>
+        <item>Nature</item>
+        <item>Backgrounds</item>
+        <item>Science</item>
+        <item>Education</item>
+        <item>People</item>
+        <item>Feelings</item>
+        <item>Religion</item>
+        <item>Health</item>
+        <item>Places</item>
+        <item>Animals</item>
+        <item>Industry</item>
+        <item>Food</item>
+        <item>Computer</item>
+        <item>Sports</item>
+        <item>Transportation</item>
+        <item>Travel</item>
+        <item>Buildings</item>
+        <item>Business</item>
+        <item>Music</item>
+
+    </string-array>
+
+    <string-array name="sort_results">
+        <item>Latest</item>
+        <item>Popular</item>
+    </string-array>
+
+    <string name="sort_results_key">sort_results_key</string>
+
+
+    <string-array name="photo_type">
+        <item>All</item>
+        <item>Photo</item>
+        <item>Illustration</item>
+        <item>Vector</item>
+    </string-array>
+
+    <string name="photo_type_key">photo_type_key</string>
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, Check your email and password or SIGN UP</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change Password</string>
+    <string name="btn_send">Send Password Reset Email</string>
+    <string name="btn_remove">Remove My Account</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">Password reset instructions will be sent to this registered email address</string>
+    <string name="prompt_password">Password Change</string>
+
+</resources>

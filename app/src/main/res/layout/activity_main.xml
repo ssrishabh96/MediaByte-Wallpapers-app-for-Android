@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:scrollbars="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    >
+<LinearLayout
+    android:id="@+id/constraintLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="imageopen.rishabh.andimage.MainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/main_query_edittext"
+        android:hint="Enter your search query"
+        android:drawableRight="@drawable/cross"
+        android:alpha="0.6"
+        android:transitionName="loadPicture"
+        android:visibility="gone" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:indeterminateDrawable="@drawable/button"
+        android:progress="60"
+        android:id="@+id/downloadProgressBar"
+        android:visibility="gone" />
+
+    <TextView
+        android:text="OOps, no results found. Search Again."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultsError"
+        android:gravity="left|center"
+        android:drawableLeft="@drawable/oops"
+        android:paddingLeft="20dp"
+        android:textColor="@color/cardview_shadow_start_color"
+        android:textStyle="normal|bold"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/myPixabayRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+    />
+
+    <TextView
+        android:text="Images are sourced from Pixabay.org"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:textStyle="normal|bold|italic"
+        android:textColor="@color/cardview_shadow_start_color" />
+
+    <Button
+        android:text="Android Versions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AndroidButton"
+        android:onClick="loadImages1"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/myRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:visibility="gone" />
+
+
+</LinearLayout>
+
+</ScrollView>

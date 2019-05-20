@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="My Account"
+        android:id="@+id/myaccount" />
+    <item
+        android:title="Search"
+        android:showAsAction="always|withText"
+        android:id="@+id/searchitem" />
+
+    <item android:title="Videos"
+        android:id="@+id/video" />
+
+    <item android:title="FAQs"
+        android:id="@+id/faqs"
+        android:icon="@mipmap/ic_launcher"/>
+    <item android:title="Settings"
+        android:id="@+id/settings"
+        android:icon="@mipmap/ic_launcher" />
+
+    <item android:title="Contact Us"
+        android:id="@+id/contact_us"
+        android:icon="@mipmap/ic_launcher"/>
+
+    <item android:title="Exit"
+        android:id="@+id/exit" />
+
+
+</menu>

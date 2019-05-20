@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_tone_key">notification_tone_key</string>
+    <string name="username_key">username_key</string>
+    <string name="default_username">default_username</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_retry">Retry</string>
+    <string name="error_msg">Sorry! Couldn\'t fetch pictures</string>
+</resources>
