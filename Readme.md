@@ -5,8 +5,7 @@ MediaByte is a media download app that allow its users to download royalty free 
 
 
 ## Idea:
-Individual project. The motivation for the app was to create my own media app like any other trending wallpaper or videos app in Play Store at the time. Most of the things are custom coded and implemented from scratch. All API calls handling over the network is implemented from scracth without using nay third party library. The project has been succeessful with a great help from Stackoverflow and amazing netizens that care, share and help people with their concerns and queries. 
-
+Individual project. The motivation for the app was to create my own media app like any other trending wallpaper or videos app in Play Store at the time. Most of the things are custom coded and implemented from scratch. All API calls handling over the network is implemented from scratch without using any third party library. The project has been successful with great help from StackOverflow and amazing netizens that care, share and help people with their concerns and queries.
 
 ## TLDR: Simple project to compete with trending media and wallpaper download apps and also curiosity cuz why not!!
 
